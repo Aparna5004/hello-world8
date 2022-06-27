@@ -1,0 +1,223 @@
+/*mat-toolbar {
+    background: #004a9f;
+    color: white;
+}
+
+mat-sidenav {
+    margin: 16px;
+    width: 200px;
+    border-right: none;
+    background: #002bc5;
+    color: white;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+}
+
+.content {
+    height: calc(100vh - 98px);
+    margin: 16px;
+    margin-left: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2rem;
+    color: lightgray;
+
+    border-radius: 10px;
+}
+
+
+mat-sidenav-container {
+    height: calc(100vh - 65px);
+}
+
+.menu-button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1rem;
+}
+
+mat-icon {
+    margin-right: 8px;
+}*/
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+.mat-toolbar {
+    background-color: #ff0066;
+    height: 30px;
+
+}
+
+
+
+.heading h1 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.mat-toolbar-row h4 {
+    font-size: 20px;
+    color: white;
+}
+
+.mat-toolbar .mat-button {
+    margin-top: 2px;
+}
+
+.mat-toolbar .mat-icon {
+    color: white;
+    margin-bottom: 100px;
+
+}
+
+.mat-sidenav-container {
+
+
+    height: 85%;
+
+
+}
+
+
+
+
+#about {
+    width: calc(100% - 300px);
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-left: 200px;
+    padding-top: 200px;
+
+}
+
+
+
+.search-box {
+    border-radius: 10px;
+    background: white;
+    border: 1px solid #ff0066;
+}
+
+
+
+form {
+    margin: 0;
+
+}
+
+.search-box input {
+    border: none;
+    margin: 10px 5px 10px;
+    font-size: 20px;
+    outline: none;
+    color: black;
+}
+
+.search-box i {
+    font-size: 20px;
+    margin: 0px 10px;
+    color: #ff0066;
+}
+
+i:hover {
+    color: #ff0066;
+}
+
+button {
+    background: transparent;
+    border: none;
+}
+
+.Departments h1 {
+    font-size: 38px;
+    text-align: center;
+}
+
+.Departments p {
+
+    font-size: 18px;
+
+}
+
+
+
+.mat-sidenav {
+    width: 300px;
+    background-color: white;
+}
+
+
+
+
+
+
+.mat-sidenav-container .profile {
+
+    align-items: center;
+    display: flex;
+}
+
+.mat-sidenav-container .profile img {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-left: 2%;
+    margin-right: 10px;
+    padding-top: 2%;
+
+}
+
+.mat-sidenav-container .profile h3 {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+
+
+}
+
+.mat-sidenav-container ul li a {
+    display: block;
+    padding: 3px 30px;
+    color: black;
+}
+
+.mat-sidenav-container .bottom-content {
+    position: absolute;
+    bottom: 0;
+
+}
+
+.mat-sidenav-container .bottom-content ul li a {
+    display: block;
+
+    color: black;
+}
+
+.mat-sidenav-container ul li i {
+    margin-right: 16px;
+}
